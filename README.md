@@ -33,16 +33,20 @@ B.Sc. Electrical Engineering at **Tel Aviv University**, specializing in the **f
 | **[OTA Analog Amplifier](https://github.com/USERNAME/ota-analog-design)** | Analog | Cadence Virtuoso, SPICE | Met **7 simultaneous specs** (gain, BW, GBW, phase margin, power, settling) via transistor-sizing iteration |
 | **[Triple-Verified FIFO](https://github.com/USERNAME/sync-fifo-verified)** | RTL · Formal DV | SymbiYosys, z3, Yosys, Icarus | Simulated (994 checks), **formally proven** (data integrity, no overflow), synthesis-gated — 4-job CI |
 
-## 🛠️ Technical Skills
+## 🛠️ Technical Skills — every skill links to public proof
 
-```text
-HDL & Programming   Verilog (RTL) · Python · C
-EDA / Design Tools  Cadence Virtuoso · AMD Vivado · PSPICE · MATLAB
-Digital & VLSI      RTL design · logic design · FPGA integration · bus design
-                    schematic capture · floorplanning · layout · DRC/LVS
-Analog              OTA / op-amp design · trade-off analysis · transistor sizing
-Verification        design verification · HW–SW integration · simulation · debug
-```
+![skills](skills.svg)
+
+| Domain | Stack | Proven in |
+|---|---|---|
+| **RTL Design** | ![Verilog](https://img.shields.io/badge/Verilog-RTL-1ABC9C?style=flat-square) ![FSM](https://img.shields.io/badge/FSM-design-1ABC9C?style=flat-square) ![Lint](https://img.shields.io/badge/Verilator-lint--clean-2ECC71?style=flat-square) | [UART TX/RX](https://github.com/USERNAME/dlx-fpga-resa-bringup), [FIFO](https://github.com/USERNAME/sync-fifo-verified) — lint-clean, synthesizable |
+| **Verification (DV)** | ![SVA](https://img.shields.io/badge/Self--checking-testbenches-8957e5?style=flat-square) ![Formal](https://img.shields.io/badge/SymbiYosys-formal%20proofs-8957e5?style=flat-square) ![z3](https://img.shields.io/badge/z3-SMT-8957e5?style=flat-square) | [FIFO formal proofs](https://github.com/USERNAME/sync-fifo-verified) — data integrity *proven*, scoreboards, 1000+ checks |
+| **FPGA & Bring-up** | ![Vivado](https://img.shields.io/badge/AMD%20Vivado-2024.2-E74C3C?style=flat-square) ![Artix7](https://img.shields.io/badge/Artix--7-Cmod%20A7-9B59B6?style=flat-square) ![UART](https://img.shields.io/badge/USB--UART-host%20link-9B59B6?style=flat-square) | [DLX bring-up](https://github.com/USERNAME/dlx-fpga-resa-bringup) — ISE→Vivado migration, validated on hardware (ACSL Labs 1–7) |
+| **VLSI / Physical** | ![Virtuoso](https://img.shields.io/badge/Cadence-Virtuoso-DA1710?style=flat-square) ![DRC](https://img.shields.io/badge/DRC%2FLVS-clean-2ECC71?style=flat-square) ![Synth](https://img.shields.io/badge/Yosys-synthesis-3498DB?style=flat-square) | [ALU full-custom flow](https://github.com/USERNAME/alu-vlsi-gpdk45) — schematic→layout→signoff, 33 documented figures |
+| **Analog** | ![OTA](https://img.shields.io/badge/OTA%2FOp--amp-design-F39C12?style=flat-square) ![SPICE](https://img.shields.io/badge/SPICE-simulation-F39C12?style=flat-square) ![gmid](https://img.shields.io/badge/Transistor-sizing-F39C12?style=flat-square) | [7-spec OTA](https://github.com/USERNAME/ota-analog-design) — 100/100 course grade |
+| **Engineering Infra** | ![CI](https://img.shields.io/badge/GitHub%20Actions-4--stage%20CI-2088FF?style=flat-square) ![Git](https://img.shields.io/badge/Git-workflow-F05032?style=flat-square) ![Python](https://img.shields.io/badge/Python-tooling-3776AB?style=flat-square) ![C](https://img.shields.io/badge/C-embedded-555?style=flat-square) | Every repo: lint → sim → synthesis → formal on each push |
+
+> The difference from a typical skills list: each row is **verifiable** — click through and read the code, the testbench, or the proof.
 
 ## 🎓 Education
 
