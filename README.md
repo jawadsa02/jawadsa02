@@ -1,5 +1,7 @@
 <div align="center">
 
+![banner](banner.svg)
+
 # Jawad Saied Ahmed
 
 **Electrical Engineering Graduate · Tel Aviv University**
