@@ -24,6 +24,16 @@ B.Sc. Electrical Engineering at **Tel Aviv University**, specializing in the **f
 - 📈 **Analog design** meeting 7 simultaneous specs — *100/100 in Analog Electronic Circuits*
 - 💼 Available immediately for **chip design / design verification / chip bring-up** roles
 
+## 📌 Portfolio Repositories
+
+| # | Repository | CI |
+|:---:|---|:---:|
+| 1 | [uart-buffered-subsystem](https://github.com/jawadsa02/uart-buffered-subsystem) | ![CI](https://github.com/jawadsa02/uart-buffered-subsystem/actions/workflows/ci.yml/badge.svg) |
+| 2 | [sync-fifo-verified](https://github.com/jawadsa02/sync-fifo-verified) | ![CI](https://github.com/jawadsa02/sync-fifo-verified/actions/workflows/ci.yml/badge.svg) |
+| 3 | [dlx-fpga-resa-bringup](https://github.com/jawadsa02/dlx-fpga-resa-bringup) | ![CI](https://github.com/jawadsa02/dlx-fpga-resa-bringup/actions/workflows/ci.yml/badge.svg) |
+| 4 | [alu-vlsi-gpdk45](https://github.com/jawadsa02/alu-vlsi-gpdk45) | docs + layout |
+| 5 | [ota-analog-design](https://github.com/jawadsa02/ota-analog-design) | docs + analog |
+
 ## 🚀 Featured Projects
 
 *Ordered by engineering depth — subsystem integration → formal DV → FPGA bring-up → physical design → analog.*
