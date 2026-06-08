@@ -58,7 +58,7 @@
 
   <!-- text -->
   <text class="name" x="640" y="148" text-anchor="middle">Jawad Saied Ahmed</text>
-  <text class="role" x="640" y="190" text-anchor="middle">&lt; Electrical Engineer /&gt;</text>
-  <text class="sub"  x="640" y="226" text-anchor="middle">RTL Design · VLSI · FPGA Bring-up · Analog Circuit Design</text>
+  <text class="role" x="640" y="190" text-anchor="middle">RTL · VLSI · FPGA · Analog</text>
+  <text class="sub"  x="640" y="226" text-anchor="middle">From transistor sizing to processor bring-up</text>
   <text class="sub"  x="640" y="254" text-anchor="middle">Tel Aviv University · B.Sc. Electrical Engineering</text>
 </svg>
