@@ -32,6 +32,7 @@ B.Sc. Electrical Engineering at **Tel Aviv University**, specializing in the **f
 | **[ALU — Full-Custom VLSI](https://github.com/USERNAME/alu-vlsi-gpdk45)** | VLSI · Layout | Cadence Virtuoso, gpdk45 | Knowles adder, registers & subtractor from gate-level schematic to layout; clean **DRC + LVS** |
 | **[OTA Analog Amplifier](https://github.com/USERNAME/ota-analog-design)** | Analog | Cadence Virtuoso, SPICE | Met **7 simultaneous specs** (gain, BW, GBW, phase margin, power, settling) via transistor-sizing iteration |
 | **[Triple-Verified FIFO](https://github.com/USERNAME/sync-fifo-verified)** | RTL · Formal DV | SymbiYosys, z3, Yosys, Icarus | Simulated (994 checks), **formally proven** (data integrity, no overflow), synthesis-gated — 4-job CI |
+| **[Buffered UART Subsystem](https://github.com/USERNAME/uart-buffered-subsystem)** | System Integration | Verilog, Yosys, Icarus | **Composes** uart_tx + uart_rx + 2× sync_fifo into one subsystem; end-to-end verified (12 bytes through the full pipeline) |
 
 ## 🛠️ Technical Skills — every skill links to public proof
 
