@@ -1,6 +1,6 @@
 <div align="center">
 
-![banner](banner.svg)
+<img src="assets/avatar.png" alt="Jawad Saied Ahmed" width="160" style="border-radius: 50%;" />
 
 # Jawad Saied Ahmed
 
@@ -10,6 +10,8 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-jawad--saied--ahmed.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://jawad-saied-ahmed.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jawadsaidahmed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jawadsaidahmed)
 [![Email](https://img.shields.io/badge/Email-jawadsa02%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jawadsa02@gmail.com)
+
+![banner](assets/banner.svg)
 
 </div>
 
@@ -26,17 +28,19 @@ B.Sc. Electrical Engineering at **Tel Aviv University**, specializing in the **f
 
 ## 🚀 Featured Projects
 
-| Project | Domain | Stack | Highlights |
-|---|---|---|---|
-| **[DLX Microprocessor on FPGA](https://github.com/jawadsa02/dlx-fpga-resa-bringup)** | RTL · Bring-up | Verilog, Vivado 2024.2, Artix-7 (Cmod A7) | Led bring-up on a new FPGA platform; migrated ISE 14.x → Vivado; designed I/O & bus control; validated with ACSL Labs 1–7 |
-| **[ALU — Full-Custom VLSI](https://github.com/jawadsa02/alu-vlsi-gpdk45)** | VLSI · Layout | Cadence Virtuoso, gpdk45 | Knowles adder, registers & subtractor from gate-level schematic to layout; clean **DRC + LVS** |
-| **[OTA Analog Amplifier](https://github.com/jawadsa02/ota-analog-design)** | Analog | Cadence Virtuoso, SPICE | Met **7 simultaneous specs** (gain, BW, GBW, phase margin, power, settling) via transistor-sizing iteration |
-| **[Triple-Verified FIFO](https://github.com/jawadsa02/sync-fifo-verified)** | RTL · Formal DV | SymbiYosys, z3, Yosys, Icarus | Simulated (994 checks), **formally proven** (data integrity, no overflow), synthesis-gated — 4-job CI |
-| **[Buffered UART Subsystem](https://github.com/jawadsa02/uart-buffered-subsystem)** | System Integration | Verilog, Yosys, Icarus | **Composes** uart_tx + uart_rx + 2× sync_fifo into one subsystem; end-to-end verified (12 bytes through the full pipeline) |
+*Ordered by engineering depth — subsystem integration → formal DV → FPGA bring-up → physical design → analog.*
+
+| # | Project | Domain | Stack | Highlights |
+|---|---|---|---|---|
+| 1 | **[Buffered UART Subsystem](https://github.com/jawadsa02/uart-buffered-subsystem)** | System Integration | Verilog, Yosys, Icarus | **Composes** uart_tx + uart_rx + 2× sync_fifo; end-to-end verified (12 bytes bit-exact); 3-job CI |
+| 2 | **[Triple-Verified FIFO](https://github.com/jawadsa02/sync-fifo-verified)** | RTL · Formal DV | SymbiYosys, z3, Yosys, Icarus | Simulated (994 checks), **formally proven** (data integrity, no overflow), synthesis-gated — 4-job CI |
+| 3 | **[DLX Microprocessor on FPGA](https://github.com/jawadsa02/dlx-fpga-resa-bringup)** | RTL · Bring-up | Verilog, Vivado 2024.2, Artix-7 (Cmod A7) | ISE 14.x → Vivado migration; I/O & bus control RTL; validated ACSL Labs 1–7 |
+| 4 | **[ALU — Full-Custom VLSI](https://github.com/jawadsa02/alu-vlsi-gpdk45)** | VLSI · Layout | Cadence Virtuoso, gpdk45 | Knowles adder, registers & subtractor; schematic → layout; clean **DRC + LVS** |
+| 5 | **[OTA Analog Amplifier](https://github.com/jawadsa02/ota-analog-design)** | Analog | Cadence Virtuoso, SPICE | Met **7 simultaneous specs** (gain, BW, GBW, phase margin, power, settling) |
 
 ## 🛠️ Technical Skills — every skill links to public proof
 
-![skills](skills.svg)
+![skills](assets/skills.svg)
 
 | Domain | Stack | Proven in |
 |---|---|---|
@@ -45,7 +49,7 @@ B.Sc. Electrical Engineering at **Tel Aviv University**, specializing in the **f
 | **FPGA & Bring-up** | ![Vivado](https://img.shields.io/badge/AMD%20Vivado-2024.2-E74C3C?style=flat-square) ![Artix7](https://img.shields.io/badge/Artix--7-Cmod%20A7-9B59B6?style=flat-square) ![UART](https://img.shields.io/badge/USB--UART-host%20link-9B59B6?style=flat-square) | [DLX bring-up](https://github.com/jawadsa02/dlx-fpga-resa-bringup) — ISE→Vivado migration, validated on hardware (ACSL Labs 1–7) |
 | **VLSI / Physical** | ![Virtuoso](https://img.shields.io/badge/Cadence-Virtuoso-DA1710?style=flat-square) ![DRC](https://img.shields.io/badge/DRC%2FLVS-clean-2ECC71?style=flat-square) ![Synth](https://img.shields.io/badge/Yosys-synthesis-3498DB?style=flat-square) | [ALU full-custom flow](https://github.com/jawadsa02/alu-vlsi-gpdk45) — schematic→layout→signoff, 33 documented figures |
 | **Analog** | ![OTA](https://img.shields.io/badge/OTA%2FOp--amp-design-F39C12?style=flat-square) ![SPICE](https://img.shields.io/badge/SPICE-simulation-F39C12?style=flat-square) ![gmid](https://img.shields.io/badge/Transistor-sizing-F39C12?style=flat-square) | [7-spec OTA](https://github.com/jawadsa02/ota-analog-design) — 100/100 course grade |
-| **Engineering Infra** | ![CI](https://img.shields.io/badge/GitHub%20Actions-4--stage%20CI-2088FF?style=flat-square) ![Git](https://img.shields.io/badge/Git-workflow-F05032?style=flat-square) ![Python](https://img.shields.io/badge/Python-tooling-3776AB?style=flat-square) ![C](https://img.shields.io/badge/C-embedded-555?style=flat-square) | Every repo: lint → sim → synthesis → formal on each push |
+| **Engineering Infra** | ![CI](https://img.shields.io/badge/GitHub%20Actions-4--stage%20CI-2088FF?style=flat-square) ![Git](https://img.shields.io/badge/Git-workflow-F05032?style=flat-square) ![Python](https://img.shields.io/badge/Python-tooling-3776AB?style=flat-square) ![C](https://img.shields.io/badge/C-embedded-555?style=flat-square) | Every RTL repo: lint → sim → synthesis → formal on each push |
 
 > The difference from a typical skills list: each row is **verifiable** — click through and read the code, the testbench, or the proof.
 
