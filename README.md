@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/avatar.png" alt="Jawad Saied Ahmed" width="160" style="border-radius: 50%;" />
-
 # Jawad Saied Ahmed
 
 **Electrical Engineering Graduate · Tel Aviv University**
