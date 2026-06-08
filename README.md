@@ -7,7 +7,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-jawad--saied--ahmed.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://jawad-saied-ahmed.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jawadsaidahmed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jawadsaidahmed)
-[![Email](https://img.shields.io/badge/Email-jawadsa02%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jawadsa02@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-jawadsa02-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawadsa02)
 
 ![banner](assets/banner.svg)
 
