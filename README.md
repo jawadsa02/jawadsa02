@@ -24,6 +24,7 @@ Most of my digital work follows the same habit: write synthesizable RTL, prove i
 ```mermaid
 flowchart LR
     A[Analog sizing<br/>OTA · 7 specs] --> B[Custom layout<br/>ALU · DRC/LVS]
+    B --> F[AI verification co-pilot<br/>ALU · scoreboard · faults]
     B --> C[RTL + formal DV<br/>FIFO · UART]
     C --> D[Subsystem integration<br/>Buffered UART]
     D --> E[FPGA bring-up<br/>DLX on Cmod A7]
@@ -38,7 +39,7 @@ flowchart LR
 | 3 | [**dlx-fpga-resa-bringup**](https://github.com/jawadsa02/dlx-fpga-resa-bringup) | DLX processor migration to Artix-7, UART RTL, hardware validation | ![CI](https://github.com/jawadsa02/dlx-fpga-resa-bringup/actions/workflows/ci.yml/badge.svg) |
 | 4 | [**alu-vlsi-gpdk45**](https://github.com/jawadsa02/alu-vlsi-gpdk45) | Full-custom ALU in Virtuoso — Knowles adder, layout, clean signoff | — |
 | 5 | [**ota-analog-design**](https://github.com/jawadsa02/ota-analog-design) | OTA meeting seven simultaneous specs (100/100 course grade) | — |
-| 6 | [**ai-verification-copilot**](https://github.com/jawadsa02/ai-verification-copilot) | AI-assisted RTL verification — golden model, scoreboard, coverage, fault injection | ![CI](https://github.com/jawadsa02/ai-verification-copilot/actions/workflows/ci.yml/badge.svg) |
+| 6 | [**ai-verification-copilot**](https://github.com/jawadsa02/ai-verification-copilot) · [**live demo**](https://jawadsa02.github.io/ai-verification-copilot/) | AI-assisted RTL verification — golden model, scoreboard, coverage, fault injection | ![CI](https://github.com/jawadsa02/ai-verification-copilot/actions/workflows/ci.yml/badge.svg) |
 
 ## Skills
 
@@ -51,7 +52,7 @@ flowchart LR
 | FPGA | Vivado 2024.2, Artix-7, USB-UART host link | [DLX bring-up](https://github.com/jawadsa02/dlx-fpga-resa-bringup) |
 | Physical design | Virtuoso, DRC/LVS, Yosys synthesis | [ALU flow](https://github.com/jawadsa02/alu-vlsi-gpdk45) |
 | Analog | OTA/op-amp, gm/ID sizing, SPICE | [OTA design](https://github.com/jawadsa02/ota-analog-design) |
-| Infra | GitHub Actions, Make, Python/C host tools | Lint → sim → synth → formal on every RTL push |
+| Infra | GitHub Actions, Make, Node, Python/C host tools | Lint → sim → synth → formal · [AI co-pilot CI](https://github.com/jawadsa02/ai-verification-copilot/actions/workflows/ci.yml) |
 
 ## Education
 
