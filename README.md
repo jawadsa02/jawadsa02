@@ -38,6 +38,7 @@ flowchart LR
 | 3 | [**dlx-fpga-resa-bringup**](https://github.com/jawadsa02/dlx-fpga-resa-bringup) | DLX processor migration to Artix-7, UART RTL, hardware validation | ![CI](https://github.com/jawadsa02/dlx-fpga-resa-bringup/actions/workflows/ci.yml/badge.svg) |
 | 4 | [**alu-vlsi-gpdk45**](https://github.com/jawadsa02/alu-vlsi-gpdk45) | Full-custom ALU in Virtuoso — Knowles adder, layout, clean signoff | — |
 | 5 | [**ota-analog-design**](https://github.com/jawadsa02/ota-analog-design) | OTA meeting seven simultaneous specs (100/100 course grade) | — |
+| 6 | [**ai-verification-copilot**](https://github.com/jawadsa02/ai-verification-copilot) | AI-assisted RTL verification — golden model, scoreboard, coverage, fault injection | ![CI](https://github.com/jawadsa02/ai-verification-copilot/actions/workflows/ci.yml/badge.svg) |
 
 ## Skills
 
@@ -46,7 +47,7 @@ flowchart LR
 | Area | Tools | Backed by |
 |---|---|---|
 | RTL | Verilog, FSM design, Verilator lint | [UART](https://github.com/jawadsa02/dlx-fpga-resa-bringup), [FIFO](https://github.com/jawadsa02/sync-fifo-verified) |
-| Verification | Self-checking TBs, scoreboards, SymbiYosys, z3 | [FIFO proofs](https://github.com/jawadsa02/sync-fifo-verified) |
+| Verification | Self-checking TBs, scoreboards, SymbiYosys, z3 | [FIFO proofs](https://github.com/jawadsa02/sync-fifo-verified), [AI co-pilot](https://github.com/jawadsa02/ai-verification-copilot) |
 | FPGA | Vivado 2024.2, Artix-7, USB-UART host link | [DLX bring-up](https://github.com/jawadsa02/dlx-fpga-resa-bringup) |
 | Physical design | Virtuoso, DRC/LVS, Yosys synthesis | [ALU flow](https://github.com/jawadsa02/alu-vlsi-gpdk45) |
 | Analog | OTA/op-amp, gm/ID sizing, SPICE | [OTA design](https://github.com/jawadsa02/ota-analog-design) |
